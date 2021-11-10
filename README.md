@@ -16,3 +16,5 @@ References:
 [Sahil Malik's Docker environment setup](https://github.com/maliksahil/docker-ubuntu-sahil)
 * I came across this repo in my results and liked that it was a fairly simple setup that I could use as a template to input my own options and tools for my need. If you came across this repo, check this one out as well.
 
+[Docker unit test: how to test a Dockerfile (Guide 2020)](https://www.gasparevitta.com/posts/docker-unit-test-dockerfile-image/)
+* This is a short and simply guide to writing tests for docker. Since this is to be my dev environment I plan on using this as a starting place for writing tests to make sure everything works properly.
