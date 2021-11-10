@@ -4,7 +4,7 @@ LABEL mainteriner="Jon Stump <jmstump@gmail.com>"
 
 # Updates the system, makes some tool installs, and sets the user.
 RUN apt-get update && \
-  apt-get install -y curl git-core zsh zsh-antigen wget neovim &&
+  apt-get install -y curl git-core zsh zsh-antigen wget npm neovim &&
   adduser --quiet --disabled-password --shell /bin/zsh --home /home/devuser --gecos "User" devuser && \
   echo "devuser:p@ssword1" | chpassword && usermod -aG sudo devuser
 

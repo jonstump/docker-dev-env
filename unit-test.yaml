@@ -1,0 +1,29 @@
+schemaVersion: '2.0.0'
+#this section should test things that use COPY/ADD
+fileExistenceTests:
+  - name:
+    path:
+    shouldExist:
+    isExecutableBy:
+fileContentTests:
+  - name:
+    path:
+    expectedContents:
+#this tests sections that uses the RUN command
+commandTests:
+  - name:
+    setup:
+    command:
+    args:
+    expectedOutput:
+#This section tests metadata ENV, WRKDIR, EXPOSE
+metadataTest:
+  env:
+  - key:
+    value:
+  labels:
+  - key:
+    value:
+  valumes:
+  wrkdir:
+
