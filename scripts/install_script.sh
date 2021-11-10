@@ -11,3 +11,7 @@ sudo make install
 #install nvm
 
 #install ranger
+wget -O ranger-stable.tar.gz https://ranger.github.io/ranger-stable.tar.gz
+tar -xvf ranger-stable.tar.gz
+cd ranger-stable/
+sudo make install
